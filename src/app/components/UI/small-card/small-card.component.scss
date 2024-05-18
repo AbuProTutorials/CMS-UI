@@ -1,0 +1,38 @@
+.card{
+    width: 200px;
+    height: 250px;
+    margin: 25px;
+}
+
+.card-body{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(212, 211, 211);
+    transition: 1s;
+}
+
+.card-body:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 25px rgb(100, 99, 99);
+}
+
+.card-header-handler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.picture{
+    width: 60%;
+    height: 60%;
+}
+
+.header{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}

@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.inner-main{
+    width: 50%;
+    position: relative;
+    bottom: 50px;
+}
+
+.centrize-welcome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.welcom-div{
+    width: 60%;
+    height:fit-content;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.welcom-div:hover{
+    cursor: pointer;
+    background-color: rgb(124, 124, 244);
+}
+
+.welcome-header{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.welcome-paragrph{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}

@@ -1,0 +1,20 @@
+<app-primary-navbar path="../../../../assets/images/quiz-icon.png" header="Quiz"/>
+<div class="main">
+    <app-navbar />
+    <div  class="inner-main">
+        <div class="inner-main-body">
+            <div data-aos="zoom-out" data-aos-duration="1000"    class="content-handler">
+                <img class="image-handler" src={{path}} alt={{path}}>
+            </div>
+            <div data-aos="zoom-out" data-aos-duration="1000"    class="content-handler">
+                <h1 class="header">{{question}}</h1>
+            </div>
+            <div class="options-handler">
+                <div (click)="quizGetAll('A')" data-aos="fade-down" data-aos-duration="1000"  class="option">{{option1}}</div>
+                <div (click)="quizGetAll('B')" data-aos="fade-right" data-aos-duration="1000"  class="option">{{option2}}</div>
+                <div (click)="quizGetAll('C')" data-aos="fade-left" data-aos-duration="1000"  class="option">{{option3}}</div>
+                <div (click)="quizGetAll('D')" data-aos="fade-up" data-aos-duration="1000"  class="option">{{option4}}</div>
+            </div>
+        </div>
+    </div>
+</div>

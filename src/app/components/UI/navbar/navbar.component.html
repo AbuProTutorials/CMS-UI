@@ -1,0 +1,39 @@
+<header data-aos="fade-right" data-aos-duration="1000" class="{{ menuToggle }}" #homeworkHeader>
+  <div class="header">
+    <div class="header-btn">
+      <img src="assets/images/Menu.png" alt="menu" (click)="toggleMenu()" #menuBtn />
+    </div>
+    <ul class="header-list">
+      <li class="header-list-item">
+        <a [routerLink]="['/school']">
+          <img src="assets/images/School House.png" alt="" />
+          <span> Profile of School </span>
+        </a>
+      </li>
+      <li class="header-list-item">
+        <a [routerLink]="['/publication']">
+          <img src="assets/images/US News.png" alt="" />
+          <span> Profile of Publication </span>
+        </a>
+      </li>
+      <li class="header-list-item">
+        <a [routerLink]="['/contact']">
+          <img src="assets/images/Office Phone.png" alt="" />
+          <span> Emergency contact </span>
+        </a>
+      </li>
+      <li class="header-list-item">
+        <a [routerLink]="['/setting']">
+          <img src="assets/images/Automatic.png" alt="" />
+          <span> Settings </span>
+        </a>
+      </li>
+      <li class="header-list-item">
+        <a [routerLink]="['/login']">
+          <img src="assets/images/Exit.png" alt="" />
+          <span> Logout </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>

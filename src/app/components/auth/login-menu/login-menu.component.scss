@@ -1,0 +1,65 @@
+.main{
+    height: 650px;
+    overflow: hidden;
+}
+
+.inner-main{
+    position: relative;
+    bottom: 50px;
+}
+
+.option-text-handler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.option-text{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: blue;
+}
+
+.option-div-handler{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.option-handler{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.option{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.option:hover{
+    cursor: pointer;
+    background-color: rgb(112, 112, 240);
+}
+
+.option-img{
+    margin: 30px;
+}
+
+.option-description{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.option-description-handler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

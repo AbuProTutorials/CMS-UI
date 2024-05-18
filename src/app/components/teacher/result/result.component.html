@@ -1,0 +1,39 @@
+<main class="site-main">
+  <app-navbar></app-navbar>
+  <section class="section-result">
+    <div class="result">
+      <div class="homework-header" #test></div>
+
+      <ul class="result-list">
+        <li class="result-list-item">
+          <a [routerLink]="['/inner-result']">
+            <span class="result-item-header"></span>
+            <div class="result-list-item__content">
+              <h2>First Terminal</h2>
+              <div class="result-list-item__wrapper">
+                <img src="assets/images/book.jpg" width="500" alt="" />
+              </div>
+            </div>
+            <div class="result-list-item__btn__wrapper">
+              <button>Publish</button>
+            </div>
+          </a>
+        </li>
+        <li class="result-list-item">
+          <a [routerLink]="['/inner-result']">
+            <span class="result-item-header"></span>
+            <div class="result-list-item__content">
+              <h2>First Terminal</h2>
+              <div class="result-list-item__wrapper">
+                <img src="assets/images/book.jpg" width="500" alt="" />
+              </div>
+            </div>
+            <div class="result-list-item__btn__wrapper">
+              <button>Publish</button>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>

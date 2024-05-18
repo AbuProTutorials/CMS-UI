@@ -1,0 +1,41 @@
+.inner-result-section {
+  .inner-result-header {
+    padding: 10px;
+    background-color: rgba(65, 105, 225, 0.689);
+    display: flex;
+    justify-content: space-between;
+    *{
+      color: white;
+    }
+  }
+
+  .inner-result-content {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+
+    h2{
+      margin-bottom: 20px;
+    }
+
+    img{
+      border-radius: 5px;
+    }
+
+    .flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    button{
+      background-color: royalblue;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+
+  // .inner-result-btn {
+  // }
+}

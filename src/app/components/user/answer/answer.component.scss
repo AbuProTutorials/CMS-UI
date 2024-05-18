@@ -1,0 +1,30 @@
+.answer-section{
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .answer{
+    width: 700px;
+  }
+  
+  .answer-title{
+    color: royalblue;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;   
+  }
+
+  .answer-content__title{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+
+  hr{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

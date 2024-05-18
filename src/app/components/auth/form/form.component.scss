@@ -1,0 +1,58 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-main{
+    width: 35%;
+    position: relative;
+    bottom: 100px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.label{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.input{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(172, 171, 171);
+    height: 30px;
+    border: 2px solid rgb(0, 128, 117);
+}
+
+.add-button-handler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.add-button{
+    width: 70%;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.add-button:hover{
+    cursor:pointer;
+    background-color: rgb(118, 118, 253);
+}
