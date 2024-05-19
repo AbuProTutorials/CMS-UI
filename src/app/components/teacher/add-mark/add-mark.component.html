@@ -18,20 +18,27 @@
             </div>
           </div>
         </div>
+
+        
         <div class="attendance-table__body">
+          @for (index of numbers; track index){
           <div class="attendance-table__body-row">
             <div class="attendance-table-body__item">
-              <p>John Doe</p>
+              <p>{{addmark.$values[index].firstName + " " + addmark.$values[index].lastName}}</p>
             </div>
 
             <div class="flex">
               <div class="attendance-table-body__item">
                 <!-- <span></span> -->
-                <input type="text" [maxLength]=3 name="" id="" />
+                <input type="text" [maxLength]=3 name="" id=`mark_${index}` />
               </div>
             </div>
           </div>
-        </div>
+        }
+        <button (click)="addcoin()" class="submit-btn">Submit</button>
+      </div>
+
+
       </div>
     </div>
   </section>
