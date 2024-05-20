@@ -12,7 +12,7 @@ export class AddcoinService {
   constructor(private http:HttpClient) { }
   baseURL=environment.baseUrl
 
-  AddCoins(addcoin:Addcoin):Observable<any>{
+  AddCoins(addcoin:any):Observable<any>{
     return this.http.put<any>(this.baseURL+"/Student/AddCoins",addcoin)
   }
 }

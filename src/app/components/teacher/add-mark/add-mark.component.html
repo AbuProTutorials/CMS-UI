@@ -29,13 +29,12 @@
 
             <div class="flex">
               <div class="attendance-table-body__item">
-                <!-- <span></span> -->
                 <input type="text" [maxLength]=3 name="" id=`mark_${index}` />
               </div>
             </div>
           </div>
         }
-        <button (click)="addcoin()" class="submit-btn">Submit</button>
+        <button (click)="addcoin($event)" class="submit-btn">Submit</button>
       </div>
 
 
